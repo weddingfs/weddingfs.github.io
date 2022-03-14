@@ -1,0 +1,159 @@
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* 667465  70a56d*/
+
+header#navbar {
+  background-color: #70a56d;
+  opacity: 80%;
+}
+
+#navbar a.navbar-brand {
+  font-family: "honey";
+  font-size: 30px;
+}
+
+/* Home */
+#Home div.container {
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+#Home div.row {
+  margin-bottom: -50px;
+}
+
+img.logo {
+  min-width: 150px;
+  max-width: 400px;
+}
+
+div.col-6 {
+  min-width: 150px;
+  max-width: 200px;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+/* Opening */
+@font-face {
+  font-family: "fabella";
+  src: url(font/fabella_flower/fabella-flower.ttf);
+}
+#Opening div.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#Opening div.row {
+  margin-top: 70px;
+}
+
+#Opening h2 {
+  font-family: "fabella";
+  font-size: 50px;
+  color: #667465;
+  opacity: 70%;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+#Opening p {
+  text-align: center;
+}
+
+/* Name */
+@font-face {
+  font-family: "Breathing";
+  src: url(font/breathing/Breathing.ttf);
+}
+
+#Name div.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#Name h3 {
+  text-align: center;
+  font-family: "honey";
+  font-size: 60px;
+  color: #70a56d;
+  opacity: 60%;
+  margin-bottom: 70px;
+}
+
+#Name h4 {
+  font-size: 20px;
+  margin-top: 90px;
+  color: #70a56d;
+  font-family: "Breathing";
+  opacity: 70%;
+}
+
+/* PD */
+@font-face {
+  font-family: "honey";
+  src: url(font/honey_valentine/Honey\ Valentine\ TTF.ttf);
+}
+
+#PD div.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#PD div.col-md-6 {
+  margin-top: 50px;
+}
+
+#PD div.card {
+  border-color: #70a56d;
+}
+
+#PD h3 {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "honey";
+  font-size: 60px;
+  color: #70a56d;
+  opacity: 60%;
+  margin-bottom: 70px;
+}
+
+#PD h5 {
+  text-align: center;
+  font-family: "honey";
+  font-size: 30px;
+  color: #70a56d;
+  opacity: 55%;
+}
+
+#PD p {
+  text-align: center;
+}
+
+#PD div.card {
+  margin-top: 5px;
+}
+
+#PD div.google-maps {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+#PD div.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#PD a.btn {
+  background-color: #70a56d;
+  opacity: 100%;
+  color: #ffffff;
+}
